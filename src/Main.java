@@ -65,6 +65,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hoşgeldiniz! Lütfen kullanıcı adınızı girin: ");
         System.out.println("Eğer misafir girişi yapacaksanız \" Enter \" tuşuna basabilirsiniz. ");
+        String admin_user_name[] = {"burak", "murat", "furkan"};//Admin listesi
+        char checkAdmin[] = {'A', 'U', 'G'};//Yetki profilleri.
 
         Scanner input  = new Scanner(System.in);
         String user_name = input.nextLine();
