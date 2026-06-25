@@ -88,7 +88,7 @@ Proje, temiz kod yazım ilkelerine uygun olarak modüler bir yapıda tasarlanmı
 
 * **Geliştirici:** Burak Kırlak
 * **Bölüm:** Atlas Üniversitesi - Yazılım Mühendisliği (1. Sınıf)
-* **Not Ortalaması:** 3.17
+
 * **İletişim:** [GitHub](https://github.com/BurakKIRLAK) | [LinkedIn](https://www.linkedin.com/in/burak-kirlak-6a8022372/) | [Instagram](https://www.instagram.com/hankirlak/)
 
 ---
