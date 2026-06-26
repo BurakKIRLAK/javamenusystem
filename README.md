@@ -1,14 +1,14 @@
 [README.md](https://github.com/user-attachments/files/29352576/README.md)
 # 🖥️ Burak Kırlak Java Terminali (Yetkilendirmeli Menü Sistemi)
 
-Java dili kullanılarak geliştirilmiş, dinamik tek kullanımlık şifre (OTP) üreten ve kullanıcı rollerine (Admin, Standart Kullanıcı, Misafir) göre dinamik menü yönetimi sağlayan konsol tabanlı bir otomasyon uygulamasıdır.
+Java dili kullanılarak geliştirilmiş, dinamik tek kullanımlık şifre (OTP) üreten ve kullanıcı rollerine (Admin, Standart Kullanıcı, Misafir) göre dinamik menü yönetimi sağlayan konsol tabanlı bir uygulamadır.
 
 ---
 
 ## 🚀 Proje Özellikleri
 
 * **Dinamik Rol Ataması:** Girilen kullanıcı adına göre sistem otomatik olarak **Admin (A)**, **Kullanıcı (U)** veya **Misafir (G)** profili belirler.
-* **Gelişmiş Güvenlik Donanımı (OTP):** Her giriş denemesinde arka planda `Math.random()` ile 6 haneli rastgele bir sayı dizisi üretilir ve bu dizinin rastgele bir indeksine kullanıcının yetki harfi gömülerek benzersiz bir doğrulama kodu (Token) oluşturulur.
+* **Kod Oluşturma:** Her giriş denemesinde arka planda `Math.random()` ile 6 haneli rastgele bir sayı dizisi üretilir ve bu dizinin rastgele bir indeksine kullanıcının yetki harfi gömülerek benzersiz bir doğrulama kodu (Token) oluşturulur.
 * **Hatalı Giriş Koruması:** Doğrulama kodu yanlış girildiğinde sonsuz döngü mimarisi sayesinde sistem kendini korumaya alır ve anında yepyeni bir kod üreterek kullanıcıdan tekrar doğrulama ister.
 * **Rol Bazlı Dinamik Menü:** Admin yetkisine sahip kullanıcılar tüm kişisel ve akademik verilere erişebilirken, Standart ve Misafir kullanıcılar sadece kendilerine izin verilen menüleri görebilirler.
 * **FSM (Sonlu Durum Makinesi) Menü Akışı:** Kullanıcı menü içinde işlem yaptıktan sonra program kapanmaz; `while` döngüsü ve `switch-case` yapısının harmanlanmasıyla sürekli aktif kalır ve tekrar seçim yapılmasına olanak tanır.
